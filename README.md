@@ -15,13 +15,13 @@ The node.js mirror to use, e.g. `https://nodejs.org/download/v8-canary/` for nod
 ## Example usage:
 
 ```yaml
-uses: britestak/setup-node-nvm@master
+uses: britestak/setup-node-nvm@main
 with:
   node-version: lts/*
 ```
 
 ```yaml
-uses: britestak/setup-node-nvm@master
+uses: britestak/setup-node-nvm@main
 with:
   node-version: node
   node-mirror: https://nodejs.org/download/v8-canary/
