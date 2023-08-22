@@ -11,7 +11,7 @@ fi
 pushd  "$NVM_DIR"
 popd
 chmod +x "$NVM_DIR/nvm.sh"
-"$NVM_DIR/nvm.sh" --no-use
+"$NVM_DIR/nvm.sh"
 nvm install "$1"
 echo "SETUP_NODE_NVM_NVM: $NVM_DIR/nvm.sh"
 echo "SETUP_NODE_NVM_NODE: $(which node)"
